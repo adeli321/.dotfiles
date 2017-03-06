@@ -14,6 +14,6 @@ PS1="\[${orange}\]\h";
 PS1+="\[${grey}\]: ";
 PS1+="\[${green}\]\W ";
 PS1+="\[${purple}\]\u";
-PS1+="\[${orange}\]\$(parse_git_branch)"
+PS1+="\[${orange}\]\$(parse_git_branch)";
 PS1+="\[${grey}\]$ ";
 export PS1;
